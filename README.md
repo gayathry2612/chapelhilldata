@@ -1,5 +1,9 @@
 # CHES Data 2019
-Chapel hill data analysis with Dimensionality reduction
+Chapel hill data analysis with Dimensionality reduction. 
+
+The analysis is presented here in the form of a notebook to show my thought process and intentions. I spent some time analysing the dataset, code book and questionnaire. 
+> Google sheet  :  
+![Full details of the columns](https://docs.google.com/spreadsheets/d/e/2PACX-1vRMNnnvLPRFYRiw5GduBKtIaw6c9u9vMioiK6ss6GW7TpvXSeHHmsaz0DHbRnzgus-Y6bYTibzx1yGK/pubhtml?gid=1230933217&single=true)
 
 ## Question 1 
 ● Justify your methodological choices in each step (1–4). What other choices could you
@@ -80,3 +84,5 @@ For Azure, the reference architecture below is a good starting point. The genera
 * Note : There is no online training happening in this case. All training is done in batch mode.    
 
 ![alt text](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/media/ai-at-the-edge.svg)
+
+Thank you for this opportunity to solve this problem.
