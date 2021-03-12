@@ -1,10 +1,10 @@
 version: "3"
 
 services:
-  test:
+  hello:
     build: .
-    image: test
+    image: hello
     volumes:
-      - ".:/home/notebooks"
-    ports:
+      - ".:/home/notebooks"  # This is different from usual
+    ports: 
       - 8888:8888

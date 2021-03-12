@@ -25,4 +25,3 @@ jupyterlab-widgets==1.0.0
 ipython-genutils==0.2.0
 ipywidgets==7.6.3
 Markdown==3.3.4
-
