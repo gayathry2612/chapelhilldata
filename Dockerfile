@@ -2,8 +2,6 @@ FROM python:3.8-slim-buster
 
 RUN mkdir /home/notebooks
 
-RUN mkdir /home/notebooks/data
-
 WORKDIR /home/notebooks
 
 RUN python -m pip install --upgrade pip
