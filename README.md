@@ -37,14 +37,22 @@ Observing the ranges of x and y and comparing them with the original questionnai
 ![alt text](/img/heatmap.png)
 
 
-● Explain in a non-technical way what the low-dimensional representation of the data
-means (your visualization in the step 2). What could you teach a politician about the European party distribution based on the dimensionality reduction and/or possible
+● Explain in a non-technical way what the low-dimensional representation of the data means (your visualization in the step 2). What could you teach a politician about the European party distribution based on the dimensionality reduction and/or possible
 additional analyses you may produce?
 
+A politician can understand which parties think alike on a highlevel. If they want to brainstorm on common issues, who should they approach, who will align and who will be radically different from them. This analysis on a high level can help in understanding politics scene in EU. For example, the plot below has a functionality to select data as per country.As the politician hovers over points, they will understand the party leanings. 
+
+![alt text](/img/aggregated_umap.png)
 
 
-
-
-● How would you deploy the model to a cloud environment so that it would be able to
-withstand 1 million users per hour? You can for example include a sketch of a cloud
+● How would you deploy the model to a cloud environment so that it would be able to withstand 1 million users per hour? You can for example include a sketch of a cloud
 architecture.
+
+For Azure, the reference architecture below is a good starting point. The general theme is to interface a webapp with Kubernetes service that manages the containers. 
+* The ML Engineering team pushes the latest updates to the container registry
+* The Containers are hosted on a kubernetes cluster. The master node, manages which pods to launch and which one to kill, with an autoscale feature. 
+* To handle the million requests, the front end also will be actively hosted on a container framework to handle the throughput
+* The webapps run inference with the help of serverless functions to optimise the costs.
+* Note : There is no online training happening in this case. All training is done in batch mode.    
+
+![alt text](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/media/ai-at-the-edge.svg)
