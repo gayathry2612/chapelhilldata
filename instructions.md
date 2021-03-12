@@ -1,10 +1,6 @@
 # Pull from Docker hub
-
-
-
-
-
-
+` $docker run gayathry2612/hello`
+> It is uploading ....check the remote repo on docker hub.
 
 # Build from Source
 1. Clone the current repository. cd to it
