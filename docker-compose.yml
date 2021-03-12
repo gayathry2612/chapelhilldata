@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  test:
+    build: .
+    image: test
+    volumes:
+      - ".:/home/notebooks"
+    ports:
+      - 8888:8888
