@@ -1,6 +1,5 @@
 # Pull from Docker hub
-` $docker run gayathry2612/hello`
-> It is uploading ....check the remote repo on docker hub(3PM EET)![alt text](/img/docker_status_14:40PM.png)
+` $docker run -p 8888:8888 gayathry2612/hello`
 
 # Build from Source
 1. Clone the current repository. cd to it
