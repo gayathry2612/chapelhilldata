@@ -1,3 +1,6 @@
+` Docker instructions in "Instructions.md"` 
+
+
 # CHES Data 2019
 Chapel hill data analysis with Dimensionality reduction. 
 
