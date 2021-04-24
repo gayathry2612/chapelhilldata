@@ -97,4 +97,3 @@ The general theme is to interface a webapp with Kubernetes service that manages 
 
 ![alt text](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/media/ai-at-the-edge.svg)
 
-Thank you for giving me this opportunity to attempt this problem.
