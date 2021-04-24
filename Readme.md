@@ -9,8 +9,7 @@ The analysis is presented here in the form of a notebook to show my thought proc
 ![Full details of the columns](https://docs.google.com/spreadsheets/d/e/2PACX-1vRMNnnvLPRFYRiw5GduBKtIaw6c9u9vMioiK6ss6GW7TpvXSeHHmsaz0DHbRnzgus-Y6bYTibzx1yGK/pubhtml?gid=1230933217&single=true)
 
 ## Question 1 
-● Justify your methodological choices in each step (1–4). What other choices could you
-have made? What would have been their pros and cons?
+● Methods
 
 > Step 1: The loading and cleaning of data. 
 
